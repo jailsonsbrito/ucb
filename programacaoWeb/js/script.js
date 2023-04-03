@@ -12,7 +12,6 @@ console.log(3>10);
 console.log(3 == "3");
 console.log(3 === "3");
 console.log('Jailson' != "Jailson");
-*/
 
 //Strings
 console.log("Jailson");
@@ -45,3 +44,54 @@ console.log(!3===3);
 //NaN
 
 console.log("Ana" - 3);
+
+let idade = prompt("Sua idade?");
+console.log(idade);
+alert("Essa é a mensagem");
+
+
+let maior = Math.max(1,3,5,9,80);
+console.log(maior);
+
+
+function Carro(marca, modelo, ano){
+    this.marca = marca
+    this.modelo = modelo
+    this.ano = ano
+}
+
+const carro1 = new Carro('Charger', 'RT', 1970)
+
+console.log(carro1);
+
+const materials = [
+    'Hydrogen',
+    'Helium',
+    'Lithium',
+    'Beryllium'
+  ];
+  
+  console.log(materials.map(material => material.length));
+
+
+function saudacao(){
+    console.log("Seja bem-vindo!");
+}
+
+function seuNome (nome){
+    console.log(`Olá ${nome}.`);
+}
+
+setTimeout(saudacao, 2000);
+seuNome ("Jailson");
+*/
+function saudacao(nome) {
+    console.log(`Olá, ${nome}`);
+}
+
+function informarNome(callback) {
+    let nome = prompt("Digite seu nome: ");
+    callback(nome);
+}
+
+informarNome(saudacao);
