@@ -1,13 +1,33 @@
 -<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" media="all" />
+    <script src="js/script.js" defer></script>
     <title>JavaScript</title>
 </head>
 <body>
-    <h1>Meu arquivo HTML</h1>
+    <h1>TRABALHANDO COM FUNCOES JS</h1>
+
+    <form action="">
+
+        <h3>Entre em contato</h3>
+      
+        <label for="nome">Nome</label>
+        <input type="text" id="txtnome" placeholder="Seu nome" required="required" name="txtnome" /><br>
+      
+       <label for="fone">Fone</label>
+        <input type="tel" id="txtfone" placeholder="(xx) xxxxx-xxxx" name="txtfone" /><br>
+      
+        <label for="email">Email</label>
+        <input type="email" id="txtemail" placeholder="e-mail@mail.com" name="txtemail" /><br>
+
+        <textarea placeholder="Mensagem..." id="txtmensagem" name="txtmensagem"></textarea>
+      
+        <input type="submit" id="enviar" class="enviar" value="Enviar" />
+
+      </form>
 </body>
 </html>
