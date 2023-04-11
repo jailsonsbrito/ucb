@@ -39,8 +39,6 @@
             <p>Posteriormente aprendi sobre Tabela e sua estrutura</p>
             <p>Posteriormente aprendi sobre IDs</p>
             <p>...</p>
-            <img src="https://www.xodusweb.com/blog/cm/showfiles.php/mod-article-dett-img/saved/23/42/top/html-tag-base.jpg"
-                title="HTML" alt="Imagem com texto HTML" width="300" height="150">
         </article>
         <article>
             <h3>O que estou aprendendo agora:</h3>
@@ -52,72 +50,99 @@
     </section>
 
     <section id="tabela">
-        <h2 style="text-align: center;">Sobre Tabela</h2>
-        <article>
-            <h3>O que aprendi:</h3>
-            <q>As tabelas são listas de dados em duas dimensões e são compostas por linhas e colunas. Portanto, são
-                muito
-                utilizadas para apresentar dados de uma forma organizada.</q>
-            <br>
-            <div>
-                <h2>Minha primeira tabela</h2>
-                <p>Minha tabela contendo as tags de título</p>
-                <table border="1">
-                    <tr>
-                        <th colspan="4">EXEMPLO DE COLSPAN</th>
-                    </tr>
-                    <tr>
-                        <th rowspan="7">EXEMPLO DE ROWSPAN</th>
-                        <th>tag</th>
-                        <th>descrição</th>
-                        <th>exemplo</th>
-                    </tr>
-                    <tr>
-                        <td>h1</td>
-                        <td>Título 1</td>
-                        <td>
-                            <h1>exemplo</h1>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>h2</td>
-                        <td>Título 2</td>
-                        <td>
-                            <h2>exemplo</h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>h3</td>
-                        <td>Título 3</td>
-                        <td>
-                            <h3>exemplo</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>h4</td>
-                        <td>Título 4</td>
-                        <td>
-                            <h4>exemplo</h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>h5</td>
-                        <td>Título 5</td>
-                        <td>
-                            <h5>exemplo</h5>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>h6</td>
-                        <td>Título 6</td>
-                        <td>
-                            <h6>exemplo</h6>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </article>
+        <h2 style="text-align: center;">USANDO HTML PARA CRIAR UMA TABELA</h2>
+        <table border="1" align="center" style="text-align: center;">
+            <caption>Classificação de Filmes</caption>
+            <tbody>
+                <tr>
+                    <th colspan="2">Posição</th>
+                    <th>Título</th>
+                    <th style="width: 50px;">Ano</th>
+                    <th style="width: 50px;">&#9733;</th>
+                    <th>Direção</th>
+                    <th>Elenco</th>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">1</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-274387/" target="_blank"><img
+                                src="https://br.web.img2.acsta.net/c_310_420/pictures/22/12/05/09/07/2007563.jpg"
+                                title="JOHN WICK 4: BABA YAGA" alt="JOHN WICK 4: BABA YAGA" width="90" height="100"></a>
+                    </td>
+                    <td>JOHN WICK 4: BABA YAGA</td>
+                    <td>2023</td>
+                    <td>4,0</td>
+                    <td>Chad Stahelski</td>
+                    <td>Keanu Reeves, Donnie Yen, Bill Skarsgård</td>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">2</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-234099/" target="_blank"><img
+                                src="https://br.web.img3.acsta.net/c_310_420/pictures/23/04/03/19/45/2854005.jpg"
+                                title="SUPER MARIO BROS. - O FILME" alt="SUPER MARIO BROS. - O FILME" width="90"
+                                height="100"></a></td>
+                    <td>SUPER MARIO BROS. - O FILME</td>
+                    <td>2023</td>
+                    <td>3,5</td>
+                    <td>Aaron Horvath, Michael Jelenic</td>
+                    <td>Raphael Rossatto, Chris Pratt, Carina Eiras</td>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">3</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-270743/" target="_blank"><img
+                                src="https://br.web.img3.acsta.net/c_310_420/pictures/22/05/16/17/59/5165498.jpg"
+                                title="TUDO EM TODO O LUGAR AO MESMO TEMPO" alt="TUDO EM TODO O LUGAR AO MESMO TEMPO"
+                                width="90" height="100"></a></td>
+                    <td>TUDO EM TODO O LUGAR AO MESMO TEMPO</td>
+                    <td>2023</td>
+                    <td>4,5</td>
+                    <td>Daniel Scheinert, Daniel Kwan</td>
+                    <td>Michelle Yeoh, Ke Huy Quan, Jamie Lee Curtis</td>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">4</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-289056/" target="_blank"><img
+                                src="https://br.web.img3.acsta.net/c_310_420/pictures/23/01/12/16/24/2787954.jpg"
+                                title="A BALEIA" alt="A BALEIA" width="90" height="100"></a></td>
+                    <td>A BALEIA</td>
+                    <td>2023</td>
+                    <td>3,0</td>
+                    <td>Darren Aronofsky</td>
+                    <td>Brendan Fraser, Sadie Sink, Ty Simpkins</td>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">5</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-300624/" target="_blank"><img
+                                src="https://br.web.img3.acsta.net/c_310_420/pictures/23/01/19/16/50/3168009.jpg"
+                                title="PÂNICO 6" alt="PÂNICO 6" width="90" height="100"></a></td>
+                    <td>PÂNICO 6</td>
+                    <td>2023</td>
+                    <td>4,0</td>
+                    <td>James Vanderbilt, Guy Busick</td>
+                    <td>Melissa Barrera, Jenna Ortega, Courteney Cox</td>
+                </tr>
+                <tr>
+                    <td style="width: 25px;">6</td>
+                    <td><a href="https://www.adorocinema.com/filmes/filme-313164/" target="_blank"><img
+                                src="https://br.web.img3.acsta.net/c_310_420/pictures/23/02/27/20/23/5860378.png"
+                                title="DEMON SLAYER: PARA A VILA DO ESPADACHIM"
+                                alt="DEMON SLAYER: PARA A VILA DO ESPADACHIM" width="90" height="100"></a>
+                    </td>
+                    <td>DEMON SLAYER: PARA A VILA DO ESPADACHIM</td>
+                    <td>2023</td>
+                    <td>Sem avaliação</td>
+                    <td>Haruo Sotozaki</td>
+                    <td>Toshio Furukawa, Natsuki Hanae, Kana Hanazawa</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7">*Classificações baseadas no site <a href="https://www.adorocinema.com/"
+                            target="_blank">Adoro Cinema</a></td>
+                </tr>
+            </tfoot>
+        </table>
     </section>
+
 
     <section id="links">
         <header>
