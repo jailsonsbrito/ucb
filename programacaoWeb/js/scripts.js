@@ -96,4 +96,67 @@ function informarNome(callback) {
 
 informarNome(saudacao);
 
+
+
+const pessoaFisica = {
+    nome: 'Jailson',
+    idade: 33,
+    cpf: '012.123.456-00',
+    uf: 'MA'
+}
+
+const pessoaJuridica = {
+    nome: 'UCB',
+    dtFundacao: '12/03/1974',
+    cnpj: '12.123.456/0001-00',
+    uf: 'DF',
+
+    mostrarDados(){
+        console.log(`Nome: ${this.nome}\nUF: ${this.uf}`)
+    },
+
+    alterarNome(nome){
+        this.nome = nome
+    }
+}
+
+pessoaJuridica.mostrarDados.call(pessoaFisica)
+pessoaJuridica.alterarNome.call(pessoaFisica, 'Vansley')
+console.log(pessoaFisica.nome);
+
+
+const pessoa = function (name, lastName){
+    this.nome = name;
+    this.lastName = lastName;
+    console.log(`Olá ${name} ${lastName}, isso é uma função`);
+}
+
+pessoa('Jailson', 'Silva')
+
+const pessoa = (name, lastName)=>{
+    this.nome = name;
+    this.lastName = lastName;
+    console.log(`Olá ${name} ${lastName}, isso é uma função`);
+}
+
+pessoa('Jailson', 'Brito')
+
 */
+function descobreIdade (nameUser, mesNascimento, anoNascimento){
+    this.nome = prompt('Informe seu nome: ');
+    this.mes = prompt('Informe seu mês de nascimento');
+    this.ano = prompt('Informe seu ano de nascimento');
+    const date = new Date();
+    const anoAtual = date.getFullYear();
+    const mes1 = date.getMonth();
+
+    if(mes>mes1){
+        idade = anoAtual - ano -1;
+        alert(`Olá ${this.nome}, sua idade é ${this.idade} anos.`)
+    } else{
+        idade = anoAtual - ano;
+        alert(`Olá ${this.nome}, sua idade é ${this.idade} anos.`)
+    }
+}
+
+descobreIdade();
