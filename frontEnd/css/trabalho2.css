@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: #2a2f7f;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo a{
+    display: block;
+    padding-top: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+nav li a:active{
+    background-color: white;
+    color: black;
+}
+
+.banner{
+    height: 100vh;
+    background: #00000048;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto{
+    text-align: left;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+}
+.texto .botoes{
+    margin-top: 30px;
+    text-align: center;
+}
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+.texto .botoes button.n-overlay{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.n-overlay:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.overlay{
+    background: white;
+    color: black;
+}
+
+form {
+    font-size: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FFFFFF;
+    vertical-align: middle;
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    background-color: #edeef0;
+    color: #0b0334;
+    font-weight: bold;
+}
+
+textarea {
+    width: 300px;
+    line-height: 20px;
+    max-width: 300px;
+    margin-left: 0px;
+}
+
+form label {
+    color: #0b0334;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    padding-left: 20px;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body{
+    height: 900vh;
+    position: relative;
+}
+.container{
+
+    margin-top: 30vh;
+    top: 0px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: #0000ff;
+}
+
+.box{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #09e647;
+}
